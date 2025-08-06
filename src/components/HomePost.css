@@ -1,0 +1,60 @@
+.posts-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  padding: 20px;
+}
+
+.post-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Card */
+.post-card {
+  background-color: #8B4513;
+  color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  position: relative;
+  height: 140px;
+  width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Top bar positioning */
+.post-date,
+.post-likes {
+  position: absolute;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.post-date {
+  top: 12px;
+  left: 16px;
+}
+
+.post-likes {
+  top: 12px;
+  right: 16px;
+}
+
+/* Centered title */
+.post-content {
+  text-align: center;
+}
+
+.post-content h3 {
+  font-size: 2.5rem; /* doubled from 1.25-ish */
+  margin: 0;
+}

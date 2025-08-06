@@ -1,0 +1,59 @@
+.create-post-container {
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px 20px; /* top padding to clear the navbar */
+}
+
+.create-post-box {
+  background-color: #8B4513;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.create-post-title {
+  font-size: 28px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.input-box {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.file-input {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.create-button {
+  background-color: #28a745; /* green */
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.create-button:hover {
+  background-color: #218838;
+}
