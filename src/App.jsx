@@ -5,6 +5,7 @@ import CreatePost from './pages/CreatePost';
 import HomePage from './pages/Home';
 import ViewPost from './pages/ViewPost';
 import DeletePost from './pages/DeletePost';
+import EditPost from './pages/EditPost';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/create-post" element={<CreatePost />} />
           <Route path="/view-post/:id" element={<ViewPost />} />
           <Route path="/delete-post/:id" element={<DeletePost />} />
+          <Route path="/edit-post/:id" element={<EditPost />} />
         </Routes>
     </Router>
   );

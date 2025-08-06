@@ -1,0 +1,57 @@
+.edit-post-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.edit-post-box {
+  background-color: #8B4513;
+  color: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.edit-post-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.input-box,
+.file-input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+}
+
+.edit-post-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.submit-button {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+}
